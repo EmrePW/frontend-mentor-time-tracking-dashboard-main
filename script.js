@@ -49,12 +49,12 @@ nav_links.forEach((element) => {
                     console.log("day", str_current, str_previous);
                     cur.innerText = `${str_current}hrs`;
                     pre.innerText = `Yesterday - ${str_previous}hrs`;
-                },1500)
+                },1000)
 
                 setTimeout(() => {
                     cur.classList.remove("changing");
                     pre.classList.remove("changing");
-                }, 1600)
+                }, 1100)
             }
         }
         // if clicked on weekly
@@ -72,13 +72,13 @@ nav_links.forEach((element) => {
                     console.log("week", str_current, str_previous);
                     cur.innerText = `${str_current}hrs`;
                     pre.innerText = `Last week - ${str_previous}hrs`;
-                },1500);
+                },1000);
                 
 
                 setTimeout(() => {
                     cur.classList.remove("changing");
                     pre.classList.remove("changing");
-                }, 1600)
+                }, 1100)
             }
         }
         // if clicked on monthly
@@ -96,12 +96,12 @@ nav_links.forEach((element) => {
                     console.log("month", str_current, str_previous);
                     cur.innerText = `${str_current}hrs`;
                     pre.innerText = `Last Month - ${str_previous}hrs`;
-                },1500)
+                },1000)
 
                 setTimeout(() => {
                     cur.classList.remove("changing");
                     pre.classList.remove("changing");
-                }, 1600)
+                }, 1100)
             }
         }
     })

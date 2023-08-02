@@ -96,10 +96,6 @@
     color: var(--clr-neutral-white);
 }
 
-* {
-    overflow: hidden;
-} 
-
 /* general styling */
 
 body {
@@ -270,12 +266,12 @@ main {
 
 
 .time-spent-current {
-    transition: transform 1500ms ease-out;
+    transition: transform 750ms ease-in-out;
 }
 
 .time-spent-previous {
-    transition: transform 1500ms ease-out;
+    transition: transform 750ms ease-in-out;
 }
 .changing {
-    transform: translateY(200%);
+    transform: translateY(300%);
 }
