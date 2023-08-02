@@ -107,8 +107,3 @@ nav_links.forEach((element) => {
     })
 
 })
-
-function setHTML(element1, value1, element2, value2){
-    element1.innerText = value1 + "hrs";   
-    element2.innerText = "Last week - " + value2 + "hrs";
-}
