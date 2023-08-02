@@ -48,7 +48,7 @@ nav_links.forEach((element) => {
                 setTimeout(() => {
                     console.log("day", str_current, str_previous);
                     cur.innerText = `${str_current}hrs`;
-                    pre.innerText = `Last week - ${str_previous}hrs`;
+                    pre.innerText = `Yesterday - ${str_previous}hrs`;
                 },1500)
 
                 setTimeout(() => {
