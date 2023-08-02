@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="reset.css">
+  
+  <title>Frontend Mentor | Time tracking dashboard</title>
+</head>
+<body>
+
+  <main>
+
+    <section class="card row-2">
+      <div class="user-info bg-main">
+        <div class="image-contanier">
+          <img src="images/image-jeremy.png" alt="a photo of a smiling black skin coloured man">
+        </div>
+        <div>
+          <p class="fw-light">Report for</p>
+          <h2 class="fw-light color-white">Jeremy Robson</h2>
+        </div>
+      </div>
+      <nav class="navbar">
+        <ul class="navigation">
+          <li><a class="nav-element" href="#" data-index="0">Daily</a></li>
+          <li><a class="nav-element active" href="#" data-index="1">Weekly</a></li>
+          <li><a class="nav-element" href="#" data-index="2">Monthly</a></li>
+        </ul>
+      </nav>
+    </section>
+    <section class="card bg-work">
+      <div class="content">
+        <div class="header">
+          <h4>Work</h4>
+          <img src="images/icon-ellipsis.svg" alt="3 dots lined up next to each other">
+        </div>
+        <div class="time-spent" data-order="0">
+          <h2 class="time-spent-current">32hrs</h2>
+          <p class="time-spent-previous">Last week - 36hrs</p>
+        </div>
+      </div>
+    </section>
+    <section class="card bg-play">
+      <div class="content">
+        <div class="header">
+          <h4>Play</h4>
+          <img src="images/icon-ellipsis.svg" alt="3 dots lined up next to each other">
+        </div>
+        <div class="time-spent" data-order="1">
+          <h2 class="time-spent-current">10hrs</h2>
+          <p class="time-spent-previous">Lorem ipsum dolor sit.</p>
+        </div>
+      </div>
+    </section>
+    <section class="card bg-study">
+      <div class="content">
+        <div class="header">
+          <h4>Study</h4>
+          <img src="images/icon-ellipsis.svg" alt="3 dots lined up next to each other">
+        </div>
+        <div class="time-spent" data-order="2">
+          <h2 class="time-spent-current">4hrs</h2>
+          <p class="time-spent-previous">Lorem ipsum dolor sit.</p>
+        </div>
+      </div>
+    </section>
+    <section class="card bg-exercise">
+      <div class="content">
+        <div class="header">
+          <h4>Exercise</h4>
+          <img src="images/icon-ellipsis.svg" alt="3 dots lined up next to each other">
+        </div>
+        <div class="time-spent" data-order="3">
+          <h2 class="time-spent-current">4hrs</h2>
+          <p class="time-spent-previous">Lorem ipsum dolor sit.</p>
+        </div>
+      </div>
+    </section>
+    <section class="card bg-social">
+      <div class="content">
+        <div class="header">
+          <h4>Social</h4>
+          <img src="images/icon-ellipsis.svg" alt="3 dots lined up next to each other">
+        </div>
+        <div class="time-spent" data-order="4">
+          <h2 class="time-spent-current">5hrs</h2>
+          <p class="time-spent-previous">Lorem ipsum dolor sit.</p>
+        </div>
+      </div>
+    </section>
+    <section class="card bg-self-care">
+      <div class="content">
+        <div class="header">
+          <h4>Self Care</h4>
+          <img src="images/icon-ellipsis.svg" alt="3 dots lined up next to each other">
+        </div>
+        <div class="time-spent" data-order="5">
+          <h2 class="time-spent-current">2hrs</h2>
+          <p class="time-spent-previous">Lorem ipsum dolor sit.</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/EmrePW">EmrePW</a>.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
